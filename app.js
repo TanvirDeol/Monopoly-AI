@@ -179,8 +179,8 @@ function switchTurns(){
             propertyExpanded: p1NewPropertyExpanded,
             housesBought: p1NewHouses};
         const res = axios.put('http://127.0.0.1:8000/api/interactions/5/',p1Data);
-        const p2Data = axios.get('http://127.0.0.1:8000/api/interactions/6/');
-        console.log(p2Data)
+        const p2Data = axios.get('http://127.0.0.1:8000/api/interactions/6/')
+        .then(function(response){console.log(response)});
 
     }else{ //player 2
         turn = false;
