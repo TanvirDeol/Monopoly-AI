@@ -22,13 +22,12 @@
             
             <div class="right_block" id="rb">
                 <button id="roll_button" onclick="rollDice()">Roll</button>
-                <button id="buy_button" onclick="buyProperty()" disabled>Buy</button>
+                <button id="buy_button" onclick="buyProperty(1)" disabled>Buy</button>
                 <button onclick="switchTurns()">Switch Turns</button>
-                <p id="playerturn">Turn: Player 1</p>
                 <h3>Buy Houses</h3>
                 <label for="house_id">Property ID:</label>
                 <select id="house_id" onclick="showPropList()"></select>
-                <button onclick="addHouse(document.getElementById('house_id').value)">Add House</button>
+                <button onclick="addHouse(1,document.getElementById('house_id').value,1)">Add House</button>
                 <h4>Show Property Info</h4>
                 <label for="prop_id">Property ID:</label>
                 <select id="prop_id" onclick="showPropList()"></select>
