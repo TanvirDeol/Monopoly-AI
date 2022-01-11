@@ -1,0 +1,29 @@
+body{
+    background-image: radial-gradient(green 10%, darkgreen 75%);
+    font-family: "Helvetica";
+    color: whitesmoke;
+}
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px 10px black;
+}
+.wrapper{
+    display:grid;
+    
+}
+.left_block{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.middle_block{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.right_block{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
