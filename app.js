@@ -307,6 +307,10 @@ function updateGameArea() {
     playerOne.update();
     if (playerTwo.next_pos != playerTwo.current_pos){playerTwo.updatePos();}
     playerTwo.update();
-    if(playerOne.money<=0 || playerTwo.money<=0)alert("Game Over!");
+        if(playerOne.money<=0 || playerTwo.money<=0){
+        alert("Game Over!");
+        axios.put('http://127.0.0.1:8000/api/interactions/5/',p2Data);
+        axios.put('http://127.0.0.1:8000/api/interactions/6/',p2Data);
+    }
     
 }
