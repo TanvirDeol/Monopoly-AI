@@ -179,11 +179,18 @@ function switchTurns(){
             propertyExpanded: p1NewPropertyExpanded,
             housesBought: p1NewHouses};
         const res = axios.put('http://127.0.0.1:8000/api/interactions/5/',p1Data);
-        console.log("Yeet");
-        const p2Data = axios.get('http://127.0.0.1:8000/api/interactions/6/')
-        .then(function(response){console.log(response)});
+        let p2Data = null;
+        axios.get('http://127.0.0.1:8000/api/interactions/6/')
+        .then(function(response){p2Data = response.data});
         console.log(p2Data);
-        console.log("1");
+        console.log(p2Data.money);
+
+        playerTwo.next_pos = p2Data.pos;
+        playerTwo.money = p2Data.money;
+        if (p2Data.propertyBought != -1){
+            playerTwo.props.push(p2Data.propertyBought);
+            properties[p2Data.propertyBought].owner = 2;
+        }
         
 
     }else{ //player 2
