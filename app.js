@@ -60,6 +60,8 @@ function startGame() {
     myBoard = new img_component(700,700,"board.png",0,0);
     playerOne = new player(50, 50, "you.png", properties[0].posx, properties[0].posy);
     playerTwo = new player(50, 50, "opp.png", properties[0].posx, properties[0].posy);
+    axios.put('http://127.0.0.1:8000/api/interactions/5/',p2Data);
+    axios.put('http://127.0.0.1:8000/api/interactions/6/',p2Data);
     myGameArea.start();
 
 }
@@ -124,7 +126,7 @@ function calculateChange(prevPos,nextPos,type,playerId){
 
 // Rolls the dice and moves the player to where it needs to be
 function rollDice(){
-    let moves = Math.floor(Math.random() * 12)+1;
+    let moves = (Math.floor(Math.random() * 6)+1) + (Math.floor(Math.random() * 6)+1);
     invtypes = ["Tax","CH","CC","Jail","GO","Park","GoJail"];
     playerOne.next_pos = (playerOne.current_pos+moves)%40;
     //displays property information of current position
@@ -152,20 +154,22 @@ function rollDice(){
     document.getElementById("roll_button").disabled=true;
 }
 
-// TODO
+// updates all data of ai player from REST api
 function updatePlayer2(response){
     p2Data = response;
     console.log(p2Data);
     console.log(p2Data.money);
-    playerTwo.next_pos = p2Data.pos;
-    playerTwo.money = p2Data.money;
-    if (p2Data.propertyBought != -1){
-        playerTwo.props.push(p2Data.propertyBought);
-        properties[p2Data.propertyBought].owner = 2;
+    playerTwo.next_pos = p2Data.pos; //update pos
+    playerTwo.money = p2Data.money; //update money
+    if (p2Data.propertyBought != -1){ //if ai got property, add to prop list and update owner
+        buyProperty(2);
+    }
+    if (p2Data.propertyExpanded != -1){ //if ai got houses, update no of houses and the rent
+        addHouse(2,p2Data.propertyExpanded,p2Data.housesBought)
     }
 }
 
-// Switches turns from one player to another
+// Lets the AI make a move
 function switchTurns(){
     let p1Data = {pos: playerOne.next_pos,
         money: playerOne.money,
@@ -192,7 +196,6 @@ function buyProperty(player){
         document.getElementById("your_props").innerHTML += "ID:"+ playerOne.next_pos +". "+ properties[playerOne.next_pos].name+"<br>";
 
     }else{
-        playerTwo.money-=properties[playerTwo.next_pos].price;
         playerTwo.props.push(playerTwo.next_pos);
         document.getElementById("p2_money").innerHTML = "Opponent Balance: $" + playerTwo.money;
         properties[playerTwo.next_pos].owner=2;
@@ -211,18 +214,15 @@ function showPropList(){
 }
 
 //adds a house to a selected property id
-function addHouse(player,id){
+function addHouse(player,id,houses){
     if(properties[id].houses===5)return;
-    properties[id].houses+=1;
+    properties[id].houses+=houses;
     properties[id].rent[0] = properties[id].rent[properties[id].houses];
-    p1NewPropertyExpanded =id;
-    p1NewHouses+=1;
     if (player===1){
         playerOne.money-=properties[id].house_price;
-    }else{
-        playerTwo.money-=properties[id].house_price;
+        p1NewPropertyExpanded =id;
+        p1NewHouses+=1;
     }
-    
 }
 
 function distance(x1, y1, x2, y2){
