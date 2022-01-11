@@ -28,7 +28,7 @@
                 <h3>Buy Houses</h3>
                 <label for="house_id">Property ID:</label>
                 <select id="house_id" onclick="showPropList()"></select>
-                <button onclick="addHouse()">Add House</button>
+                <button onclick="addHouse(document.getElementById('house_id').value)">Add House</button>
                 <h4>Show Property Info</h4>
                 <label for="prop_id">Property ID:</label>
                 <select id="prop_id" onclick="showPropList()"></select>
