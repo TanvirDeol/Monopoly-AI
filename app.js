@@ -154,7 +154,7 @@ function rollDice(){
 
 // TODO
 function updatePlayer2(response){
-    p2Data = response.data;
+    p2Data = response;
     console.log(p2Data);
     console.log(p2Data.money);
     playerTwo.next_pos = p2Data.pos;
@@ -174,8 +174,8 @@ function switchTurns(){
         housesBought: p1NewHouses};
 
     let res = axios.put('http://127.0.0.1:8000/api/interactions/5/',p1Data);
-    axios.get('http://127.0.0.1:8000/api/interactions/6/').then(function(response){updatePlayer2(response)});
-    
+    let data = axios.get('http://127.0.0.1:8000/api/interactions/6/').then((response)=> updatePlayer2(response.data));
+        
     //reset
     document.getElementById("roll_button").disabled=false;
     document.getElementById("buy_button").disabled=true;
