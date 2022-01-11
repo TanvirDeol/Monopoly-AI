@@ -1,11 +1,15 @@
 //import board_img from "./board.png"
 var myGamePiece;
-let turn = false;
 let p1Skips = 0;
 let p2Skips = 0;
 let p1NewProperty = -1;
 let p1NewPropertyExpanded = -1;
 let p1NewHouses = 0;
+let p2Data = {pos: 0,
+    money:1500,
+    propertyBought: -1,
+    propertyExpanded: -1,
+    housesBought:0};
 
 // List of all properties in monopoly
 const properties = [
@@ -100,6 +104,7 @@ function displayProperty(index){
 }
 
 // Calculates Reward/Penalty for landing on certain properties
+// TODO implement this for AI player
 function calculateChange(prevPos,nextPos,type,playerId){
     var change = 0;
     if(properties[nextPos].owner>0 && properties[nextPos].owner!=playerId){
@@ -121,93 +126,64 @@ function calculateChange(prevPos,nextPos,type,playerId){
 function rollDice(){
     let moves = Math.floor(Math.random() * 12)+1;
     invtypes = ["Tax","CH","CC","Jail","GO","Park","GoJail"];
-    if (turn === false){
-        playerOne.next_pos = (playerOne.current_pos+moves)%40;
-        document.getElementById("propinfo").innerHTML= displayProperty(playerOne.next_pos);
-        //if property owned by another player, or its a property thats not a building...
-        if(p1Skips>0){
-            turn=true;
-            p1Skips=0;
-            rollDice();
-        }
-        else if(properties[playerOne.next_pos].owner> 0 || invtypes.includes(properties[playerOne.next_pos].type)){
-            document.getElementById("buy_button").disabled = true;
-            playerOne.money += calculateChange(playerOne.current_pos,playerOne.next_pos,properties[playerOne.next_pos].type,1);
-            document.getElementById("p1_money").innerHTML = "Your Balance: $" + playerOne.money;
-        }
-        //if player lands in go to jail...
-        else if(playerOne.next_pos===30){
-            playerOne.next_pos = 10;
-            p1Skips=1;
-        }
-        else{ document.getElementById("buy_button").disabled = false;}
-
-    }else{
-        playerTwo.next_pos = (playerTwo.current_pos+moves)%40;
-        document.getElementById("propinfo").innerHTML= displayProperty(playerTwo.next_pos);
-        if(p1Skips>0){
-            turn=true;
-            p1Skips=0;
-            rollDice();
-        }
-        else if(properties[playerTwo.next_pos].owner> 0 || invtypes.includes(properties[playerTwo.next_pos].type)){
-            document.getElementById("buy_button").disabled = true;
-            playerTwo.money += calculateChange(playerTwo.current_pos,playerTwo.next_pos,properties[playerTwo.next_pos].type,2);
-            document.getElementById("p2_money").innerHTML = "Opponent Balance: $" + playerTwo.money;
-        }
-        else if(playerTwo.next_pos===30){
-            playerTwo.next_pos = 10;
-            p2Skips=1;
-        }
-        else{ document.getElementById("buy_button").disabled = false;}
+    playerOne.next_pos = (playerOne.current_pos+moves)%40;
+    //displays property information of current position
+    document.getElementById("propinfo").innerHTML= displayProperty(playerOne.next_pos);
+    if(p1Skips>0){
+        p1Skips=0;
+        rollDice();
     }
+    //if property owned by another player, or its a property thats not a building...
+    else if(properties[playerOne.next_pos].owner===2 || invtypes.includes(properties[playerOne.next_pos].type)){
+        //cant buy it
+        document.getElementById("buy_button").disabled = true;
+        //pay fine if exists
+        playerOne.money += calculateChange(playerOne.current_pos,playerOne.next_pos,properties[playerOne.next_pos].type,1);
+        //update balance
+        document.getElementById("p1_money").innerHTML = "Your Balance: $" + playerOne.money;
+    }
+    //if player lands in go to jail...
+    else if(playerOne.next_pos===30){
+        playerOne.next_pos = 10;
+        p1Skips=1;
+    }
+    //in this case its a buyable property
+    else{ document.getElementById("buy_button").disabled = false;}
     document.getElementById("roll_button").disabled=true;
+}
+
+// TODO
+function updatePlayer2(response){
+    p2Data = response.data;
+    console.log(p2Data);
+    console.log(p2Data.money);
+    playerTwo.next_pos = p2Data.pos;
+    playerTwo.money = p2Data.money;
+    if (p2Data.propertyBought != -1){
+        playerTwo.props.push(p2Data.propertyBought);
+        properties[p2Data.propertyBought].owner = 2;
+    }
 }
 
 // Switches turns from one player to another
 function switchTurns(){
-    if (turn === false){ //player 1
-        turn = true;
-        document.getElementById("playerturn").innerHTML= "Turn: Player 2";
-        if(playerTwo.current_pos === 30){
-            playerTwo.next_pos = 10;
-            switchTurns();
-        }
-        let p1Data = {pos: playerOne.current_pos,
-            money: playerOne.money,
-            propertyBought: p1NewProperty,
-            propertyExpanded: p1NewPropertyExpanded,
-            housesBought: p1NewHouses};
-        const res = axios.put('http://127.0.0.1:8000/api/interactions/5/',p1Data);
-        let p2Data = null;
-        axios.get('http://127.0.0.1:8000/api/interactions/6/')
-        .then(function(response){p2Data = response.data});
-        console.log(p2Data);
-        console.log(p2Data.money);
+    let p1Data = {pos: playerOne.next_pos,
+        money: playerOne.money,
+        propertyBought: p1NewProperty,
+        propertyExpanded: p1NewPropertyExpanded,
+        housesBought: p1NewHouses};
 
-        playerTwo.next_pos = p2Data.pos;
-        playerTwo.money = p2Data.money;
-        if (p2Data.propertyBought != -1){
-            playerTwo.props.push(p2Data.propertyBought);
-            properties[p2Data.propertyBought].owner = 2;
-        }
-        
-
-    }else{ //player 2
-        turn = false;
-        document.getElementById("playerturn").innerHTML= "Turn: Player 1";
-        if(playerOne.current_pos === 30){
-            playerOne.next_pos = 10;
-            switchTurns();
-        }
-    }
+    let res = axios.put('http://127.0.0.1:8000/api/interactions/5/',p1Data);
+    axios.get('http://127.0.0.1:8000/api/interactions/6/').then(function(response){updatePlayer2(response)});
+    
+    //reset
     document.getElementById("roll_button").disabled=false;
     document.getElementById("buy_button").disabled=true;
 }
 
 // Buys a property for a player, this property is the current property the player is on
-function buyProperty(){
-    if (turn === false){
+function buyProperty(player){
+    if (player === 1){
         playerOne.money-=properties[playerOne.next_pos].price;
         playerOne.props.push(playerOne.next_pos);
         p1NewProperty = playerOne.next_pos;
@@ -228,31 +204,25 @@ function buyProperty(){
 
 function showPropList(){
     document.getElementById("house_id").innerHTML = "";
-    if(turn===false){
-        for(let i =0;i<playerOne.props.length;i++){
-            let j = playerOne.props[i];
-            document.getElementById("house_id").innerHTML += "<option value="+j+">"+j+"</option>\n";
-        }
-    }else{
-        for(let i =0;i<playerTwo.props.length;i++){
-            let j = playerTwo.props[i];
-            document.getElementById("house_id").innerHTML += "<option value="+j+">"+j+"</option>\n";
-        }
+    for(let i =0;i<playerOne.props.length;i++){
+        let j = playerOne.props[i];
+        document.getElementById("house_id").innerHTML += "<option value="+j+">"+j+"</option>\n";
     }
 }
 
-function addHouse(){
-    id = document.getElementById("house_id").value;
+//adds a house to a selected property id
+function addHouse(player,id){
     if(properties[id].houses===5)return;
     properties[id].houses+=1;
     properties[id].rent[0] = properties[id].rent[properties[id].houses];
     p1NewPropertyExpanded =id;
     p1NewHouses+=1;
-    if (turn===false){
+    if (player===1){
         playerOne.money-=properties[id].house_price;
     }else{
         playerTwo.money-=properties[id].house_price;
     }
+    
 }
 
 function distance(x1, y1, x2, y2){
