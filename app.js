@@ -5,11 +5,18 @@ let p2Skips = 0;
 let p1NewProperty = -1;
 let p1NewPropertyExpanded = -1;
 let p1NewHouses = 0;
+let p1ShowProperties = "";
+let p2ShowProperties = "";
 let p2Data = {pos: 0,
     money:1500,
     propertyBought: -1,
     propertyExpanded: -1,
     housesBought:0};
+let startData = {pos: 0,
+        money:1500,
+        propertyBought: -1,
+        propertyExpanded: -1,
+        housesBought:0};
 
 // List of all properties in monopoly
 const properties = [
@@ -60,8 +67,8 @@ function startGame() {
     myBoard = new img_component(700,700,"board.png",0,0);
     playerOne = new player(50, 50, "you.png", properties[0].posx, properties[0].posy);
     playerTwo = new player(50, 50, "opp.png", properties[0].posx, properties[0].posy);
-    axios.put('http://127.0.0.1:8000/api/interactions/5/',p2Data);
-    axios.put('http://127.0.0.1:8000/api/interactions/6/',p2Data);
+    axios.put('http://127.0.0.1:8000/api/interactions/5/',startData);
+    axios.put('http://127.0.0.1:8000/api/interactions/6/',startData);
     myGameArea.start();
 
 }
@@ -185,6 +192,31 @@ function switchTurns(){
     document.getElementById("buy_button").disabled=true;
 }
 
+function refreshPropDisplay(player){
+    if(player ===1){
+        p1ShowProperties = "";
+        for(let i =0;i<playerOne.props.length;i++){
+            p1ShowProperties +=  "ID:"+ playerOne.props[i] + ". " + properties[playerOne.props[i]].name;
+            for(let j=0;j<properties[playerOne.props[i]].houses;j++){
+                p1ShowProperties+=" #";
+            }
+            p1ShowProperties+="<br>";
+        }
+        document.getElementById("your_props").innerHTML = p1ShowProperties;
+    }
+    else{
+        p2ShowProperties = "";
+        for(let i =0;i<playerTwo.props.length;i++){
+            p2ShowProperties +=  "ID:"+ playerTwo.props[i] + ". " + properties[playerTwo.props[i]].name;
+            for(let j=0;j<properties[playerTwo.props[i]].houses;j++){
+                p2ShowProperties+=" #";
+            }
+            p2ShowProperties+="<br>";
+        }
+        document.getElementById("opp_props").innerHTML = p2ShowProperties;
+    }
+}
+
 // Buys a property for a player, this property is the current property the player is on
 function buyProperty(player){
     if (player === 1){
@@ -193,13 +225,12 @@ function buyProperty(player){
         p1NewProperty = playerOne.next_pos;
         document.getElementById("p1_money").innerHTML = "Your Balance: $" + playerOne.money;
         properties[playerOne.next_pos].owner=1;
-        document.getElementById("your_props").innerHTML += "ID:"+ playerOne.next_pos +". "+ properties[playerOne.next_pos].name+"<br>";
-
+        refreshPropDisplay(1);
     }else{
         playerTwo.props.push(playerTwo.next_pos);
         document.getElementById("p2_money").innerHTML = "Opponent Balance: $" + playerTwo.money;
         properties[playerTwo.next_pos].owner=2;
-        document.getElementById("opp_props").innerHTML += "ID:"+ playerTwo.next_pos +". "+properties[playerTwo.next_pos].name+"<br>";
+        refreshPropDisplay(2);
     }
     document.getElementById("buy_button").disabled=true;
 
@@ -222,6 +253,9 @@ function addHouse(player,id,houses){
         playerOne.money-=properties[id].house_price;
         p1NewPropertyExpanded =id;
         p1NewHouses+=1;
+        refreshPropDisplay(1);
+    }else{
+        refreshPropDisplay(2);
     }
 }
 
@@ -307,10 +341,10 @@ function updateGameArea() {
     playerOne.update();
     if (playerTwo.next_pos != playerTwo.current_pos){playerTwo.updatePos();}
     playerTwo.update();
-        if(playerOne.money<=0 || playerTwo.money<=0){
+    if(playerOne.money<=0 || playerTwo.money<=0){
         alert("Game Over!");
-        axios.put('http://127.0.0.1:8000/api/interactions/5/',p2Data);
-        axios.put('http://127.0.0.1:8000/api/interactions/6/',p2Data);
+        axios.put('http://127.0.0.1:8000/api/interactions/5/',startData);
+        axios.put('http://127.0.0.1:8000/api/interactions/6/',startData);
     }
     
 }
