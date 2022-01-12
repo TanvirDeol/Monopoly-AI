@@ -12,7 +12,7 @@ let p2Data = {pos: 0,
     propertyBought: -1,
     propertyExpanded: -1,
     housesBought:0};
-let startData = {pos: 0,
+let startData = {pos: -1,
         money:1500,
         propertyBought: -1,
         propertyExpanded: -1,
