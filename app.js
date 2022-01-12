@@ -189,7 +189,10 @@ function switchTurns(){
     setTimeout(function(){
         let data = axios.get('http://127.0.0.1:8000/api/interactions/6/').then((response)=> updatePlayer2(response.data));
     }, 500); 
-        
+    
+    p1NewProperty = -1;
+    p1NewPropertyExpanded =-1;
+    p1NewHouses=0;
     //reset
     document.getElementById("roll_button").disabled=false;
     document.getElementById("buy_button").disabled=true;
