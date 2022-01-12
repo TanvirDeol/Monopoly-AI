@@ -163,6 +163,7 @@ function rollDice(){
 
 // updates all data of ai player from REST api
 function updatePlayer2(response){
+    console.log(response);
     p2Data = response;
     console.log(p2Data);
     console.log(p2Data.money);
