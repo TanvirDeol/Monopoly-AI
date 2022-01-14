@@ -1,7 +1,6 @@
 //import board_img from "./board.png"
 var myGamePiece;
-let p1Skips = 0;
-let p2Skips = 0;
+let p1Jail = false;
 let p1NewProperty = -1;
 let p1NewPropertyExpanded = -1;
 let p1NewHouses = 0;
@@ -134,16 +133,29 @@ function calculateChange(prevPos,nextPos,type,playerId){
 // Rolls the dice and moves the player to where it needs to be
 function rollDice(){
     let moves = (Math.floor(Math.random() * 6)+1) + (Math.floor(Math.random() * 6)+1);
+    //let moves = 30;
     invtypes = ["Tax","CH","CC","Jail","GO","Park","GoJail"];
-    playerOne.next_pos = (playerOne.current_pos+moves)%40;
+    
     //displays property information of current position
+    
+    if(p1Jail === true){
+        if(Math.random()<0.333){
+            p1Jail = false;
+        }else{
+            document.getElementById("roll_button").disabled=true;
+            return;
+        }
+    }
+    playerOne.next_pos = (playerOne.current_pos+moves)%40;
     document.getElementById("propinfo").innerHTML= displayProperty(playerOne.next_pos);
-    if(p1Skips>0){
-        p1Skips=0;
-        rollDice();
+    
+    //if player lands in go to jail...
+    if(playerOne.next_pos===30){
+        playerOne.next_pos = 10;
+        p1Jail = true; 
     }
     //if property owned by another player, or its a property thats not a building...
-    else if(properties[playerOne.next_pos].owner===2 || invtypes.includes(properties[playerOne.next_pos].type)){
+    else if(properties[playerOne.next_pos].owner >0 || invtypes.includes(properties[playerOne.next_pos].type)){
         //cant buy it
         document.getElementById("buy_button").disabled = true;
         //pay fine if exists
@@ -151,11 +163,7 @@ function rollDice(){
         //update balance
         document.getElementById("p1_money").innerHTML = "Your Balance: $" + playerOne.money;
     }
-    //if player lands in go to jail...
-    else if(playerOne.next_pos===30){
-        playerOne.next_pos = 10;
-        p1Skips=1;
-    }
+    
     //in this case its a buyable property
     else{ document.getElementById("buy_button").disabled = false;}
     document.getElementById("roll_button").disabled=true;
