@@ -1,0 +1,335 @@
+Player: 1, Money:1500, New Property: True5, New Property Expanded: -1, New Houses Bought: 2, Changes: 200, Reason: Crossed GO
+Player: 2, Money:1700, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:1160, New Property: True11, New Property Expanded: -1, New Houses Bought: 2, Changes: 0, Reason: 
+Player: 2, Money:1520, New Property: True16, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:960, New Property: True15, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1520, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:1010, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 2, Money:1520, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:860, New Property: True28, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1520, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: Tax Paid
+Player: 1, Money:1060, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:1370, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -150, Reason: Rent Owned on 11
+Player: 1, Money:1160, New Property: True8, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:1420, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 1, Money:1160, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1470, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 1, Money:450, New Property: True27, New Property Expanded: -1, New Houses Bought: 3, Changes: 0, Reason: 
+Player: 2, Money:1270, New Property: True25, New Property Expanded: -1, New Houses Bought: 1, Changes: 0, Reason: 
+Player: 1, Money:400, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 2, Money:550, New Property: True34, New Property Expanded: -1, New Houses Bought: 2, Changes: 0, Reason: 
+Player: 1, Money:400, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:700, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 150, Reason: Change or Chest
+Player: 1, Money:550, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 150, Reason: Change or Chest
+Player: 2, Money:700, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: True14, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:700, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 2, Money:700, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:700, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:750, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:750, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:750, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: Tax Paid
+Player: 1, Money:490, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 2, Money:738, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -12, Reason: Rent Owned on 14
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: -50, Reason: Rent Owned on 25
+Player: 2, Money:738, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:240, New Property: True35, New Property Expanded: -1, New Houses Bought: 3, Changes: 0, Reason: 
+Player: 2, Money:328, New Property: True26, New Property Expanded: -1, New Houses Bought: 1, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 150, Reason: Change or Chest
+Player: 2, Money:278, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:528, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 250, Reason: Change or Chest
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:578, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:590, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 250, Reason: Change or Chest
+Player: 1, Money:590, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:590, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:540, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:490, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: -50, Reason: Rent Owned on 25
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:40, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: -450, Reason: Rent Owned on 34
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:240, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:240, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:240, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:240, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:240, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:440, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:828, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1028, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1128, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 100, Reason: Crossed GO
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 2, Money:978, New Property: True12, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:598, New Property: True18, New Property Expanded: -1, New Houses Bought: 2, Changes: 0, Reason: 
+Player: 1, Money:290, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: -100, Reason: Tax Paid
+Player: 2, Money:568, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -30, Reason: Rent Owned on 28
+Player: 1, Money:490, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:368, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -200, Reason: Rent Owned on 35
+Player: 1, Money:460, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: -30, Reason: Rent Owned on 12
+Player: 2, Money:568, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:510, New Property: False-1, New Property Expanded: 27, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 2, Money:508, New Property: True3, New Property Expanded: -1, New Houses Bought: 4, Changes: 200, Reason: Crossed GO
+Player: 1, Money:460, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: -50, Reason: Rent Owned on 25
+Player: 2, Money:508, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:410, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 2, Money:483, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -25, Reason: Rent Owned on 15
+Player: 1, Money:410, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:433, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 1, Money:660, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 250, Reason: Change or Chest
+Player: 2, Money:433, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:360, New Property: True6, New Property Expanded: -1, New Houses Bought: 4, Changes: 0, Reason: 
+Player: 2, Money:383, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 1, Money:360, New Property: False-1, New Property Expanded: 35, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:333, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 1, Money:346, New Property: False-1, New Property Expanded: 6, New Houses Bought: 0, Changes: -14, Reason: Rent Owned on 16
+Player: 2, Money:533, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:346, New Property: False-1, New Property Expanded: 6, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:333, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -200, Reason: Crossed GO
+Player: 1, Money:-104, New Property: False-1, New Property Expanded: 11, New Houses Bought: 0, Changes: -450, Reason: Rent Owned on 34
+
+ID: 0 Name: GO, Owner: 0, Rent: []
+ID: 1 Name: Mediteranean Avenue, Owner: 0, Rent: [2, 10, 30, 90, 160, 250]
+ID: 2 Name: CC1, Owner: 0, Rent: []
+ID: 3 Name: Baltic Avenue, Owner: 2, Rent: [320, 20, 60, 180, 320, 450]
+ID: 4 Name: Income Tax, Owner: 0, Rent: [200]
+ID: 5 Name: Reading Railroad, Owner: 1, Rent: [100, 50, 100, 200]
+ID: 6 Name: Oriental Avenue, Owner: 1, Rent: [400, 30, 90, 270, 400, 550]
+ID: 7 Name: CH1, Owner: 0, Rent: []
+ID: 8 Name: Vermont Avenue, Owner: 1, Rent: [6, 30, 90, 270, 400, 550]
+ID: 9 Name: Connecticut Avenue, Owner: 0, Rent: [8, 40, 100, 300, 450, 600]
+ID: 10 Name: Jail, Owner: 0, Rent: []
+ID: 11 Name: St. Charles Place, Owner: 1, Rent: [150, 50, 150, 450, 625, 750]
+ID: 12 Name: Electric Company, Owner: 2, Rent: [30]
+ID: 13 Name: States Avenue, Owner: 0, Rent: [10, 50, 150, 450, 625, 750]
+ID: 14 Name: Virginia Avenue, Owner: 1, Rent: [12, 60, 180, 500, 700, 900]
+ID: 15 Name: Pennsylvania Railroad, Owner: 1, Rent: [25, 50, 100, 200]
+ID: 16 Name: St. James Place, Owner: 2, Rent: [14, 70, 200, 550, 750, 950]
+ID: 17 Name: CC2, Owner: 0, Rent: []
+ID: 18 Name: Tennessee Avenue, Owner: 2, Rent: [200, 70, 200, 550, 750, 950]
+ID: 19 Name: New York Avenue, Owner: 0, Rent: [16, 80, 220, 600, 800, 1000]
+ID: 20 Name: Free Parking, Owner: 0, Rent: []
+ID: 21 Name: Kentucky Avenue, Owner: 0, Rent: [18, 90, 250, 700, 875, 1050]
+ID: 22 Name: CH2, Owner: 0, Rent: []
+ID: 23 Name: Indiana Avenue, Owner: 0, Rent: [18, 90, 250, 700, 875, 1050]
+ID: 24 Name: Illinois Avenue, Owner: 0, Rent: [20, 100, 300, 750, 925, 1100]
+ID: 25 Name: B&O Railroad, Owner: 2, Rent: [50, 50, 100, 200]
+ID: 26 Name: Atlantic Avenue, Owner: 2, Rent: [110, 110, 330, 800, 975, 1150]
+ID: 27 Name: Ventnor Avenue, Owner: 1, Rent: [800, 110, 330, 800, 975, 1150]
+ID: 28 Name: Water Works, Owner: 1, Rent: [30]
+ID: 29 Name: Marvin Gardens, Owner: 0, Rent: [24, 120, 360, 850, 1025, 1200]
+ID: 30 Name: Go To Jail, Owner: 0, Rent: []
+ID: 31 Name: Pacific Avenue, Owner: 0, Rent: [26, 130, 390, 900, 1100, 1275]
+ID: 32 Name: North Carolina Avenue, Owner: 0, Rent: [26, 130, 390, 900, 1100, 1275]
+ID: 33 Name: CC3, Owner: 0, Rent: []
+ID: 34 Name: Pennsylvania Avenue, Owner: 2, Rent: [450, 150, 450, 1000, 1200, 1400]
+ID: 35 Name: Short Line, Owner: 1, Rent: [200, 50, 100, 200]
+ID: 36 Name: CH3, Owner: 0, Rent: []
+ID: 37 Name: Park Place, Owner: 0, Rent: [35, 175, 500, 1100, 1300, 1500]
+ID: 38 Name: Luxury Tax, Owner: 0, Rent: [100]
+ID: 39 Name: Boardwalk, Owner: 0, Rent: [50, 200, 600, 1400, 1700, 2000]
+
+----------------------------------------------------------------------------
+Player: 1, Money:1400, New Property: True6, New Property Expanded: -1, New Houses Bought: 4, Changes: 200, Reason: Crossed GO
+Player: 2, Money:1300, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -200, Reason: Crossed GO
+Player: 1, Money:960, New Property: True13, New Property Expanded: -1, New Houses Bought: 3, Changes: 0, Reason: 
+Player: 2, Money:1300, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:910, New Property: False-1, New Property Expanded: 6, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 2, Money:850, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -450, Reason: Rent Owned on 13
+Player: 1, Money:480, New Property: True29, New Property Expanded: -1, New Houses Bought: 1, Changes: 0, Reason: 
+Player: 2, Money:850, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:480, New Property: False-1, New Property Expanded: 6, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:850, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:480, New Property: False-1, New Property Expanded: 29, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:850, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:480, New Property: True5, New Property Expanded: -1, New Houses Bought: 1, Changes: 200, Reason: Crossed GO
+Player: 2, Money:1050, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:480, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:850, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -200, Reason: Crossed GO
+Player: 1, Money:280, New Property: True15, New Property Expanded: -1, New Houses Bought: 2, Changes: 0, Reason: 
+Player: 2, Money:750, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -100, Reason: Rent Owned on 15
+Player: 1, Money:330, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 2, Money:750, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:330, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:950, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:330, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:950, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:370, New Property: True3, New Property Expanded: -1, New Houses Bought: 2, Changes: 200, Reason: Crossed GO
+Player: 2, Money:850, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -100, Reason: Rent Owned on 15
+Player: 1, Money:370, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:850, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:150, New Property: True23, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1050, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1050, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1050, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1050, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:1050, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:850, New Property: True25, New Property Expanded: -1, New Houses Bought: 2, Changes: 0, Reason: 
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:900, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:890, New Property: True1, New Property Expanded: -1, New Houses Bought: 3, Changes: 200, Reason: Crossed GO
+Player: 1, Money:100, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 2, Money:490, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -400, Reason: Rent Owned on 6
+Player: 1, Money:100, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:390, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -100, Reason: Rent Owned on 15
+Player: 1, Money:150, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 2, Money:372, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -18, Reason: Rent Owned on 23
+Player: 1, Money:300, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 150, Reason: Change or Chest
+Player: 2, Money:372, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:180, New Property: True9, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:522, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 150, Reason: Change or Chest
+Player: 1, Money:180, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:382, New Property: True11, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:180, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:382, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:180, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:432, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 50, Reason: Change or Chest
+Player: 1, Money:180, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:432, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:380, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:432, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:200, New Property: True18, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:332, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -100, Reason: Tax Paid
+Player: 1, Money:200, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:472, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 140, Reason: Crossed GO
+Player: 1, Money:200, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:472, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:400, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:472, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:450, New Property: True12, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:672, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:250, New Property: True19, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:672, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:250, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:642, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -30, Reason: Rent Owned on 12
+Player: 1, Money:250, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:642, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:500, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 250, Reason: Change or Chest
+Player: 2, Money:592, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 1, Money:490, New Property: False-1, New Property Expanded: 3, New Houses Bought: 0, Changes: -10, Reason: Rent Owned on 11
+Player: 2, Money:472, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -120, Reason: Rent Owned on 29
+Player: 1, Money:440, New Property: False-1, New Property Expanded: 3, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 2, Money:422, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Change or Chest
+Player: 1, Money:290, New Property: True28, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:572, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 150, Reason: Change or Chest
+Player: 1, Money:190, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -100, Reason: Tax Paid
+Player: 2, Money:522, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -50, Reason: Rent Owned on 5
+Player: 1, Money:390, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:422, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -100, Reason: Rent Owned on 15
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 3, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:422, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:390, New Property: False-1, New Property Expanded: 3, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:404, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -18, Reason: Rent Owned on 23
+Player: 1, Money:590, New Property: False-1, New Property Expanded: 5, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:404, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:790, New Property: False-1, New Property Expanded: 3, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:404, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:790, New Property: False-1, New Property Expanded: 3, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:404, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: Tax Paid
+Player: 1, Money:550, New Property: True24, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:396, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -8, Reason: Rent Owned on 9
+Player: 1, Money:290, New Property: True27, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:366, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -30, Reason: Rent Owned on 12
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:352, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -14, Reason: Rent Owned on 18
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:322, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -30, Reason: Rent Owned on 28
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: Tax Paid
+Player: 2, Money:322, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:522, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:322, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -200, Reason: Crossed GO
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:222, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -100, Reason: Rent Owned on 15
+Player: 1, Money:90, New Property: True35, New Property Expanded: -1, New Houses Bought: 3, Changes: 0, Reason: 
+Player: 2, Money:208, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -14, Reason: Rent Owned on 18
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 200, Reason: Crossed GO
+Player: 2, Money:188, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -20, Reason: Rent Owned on 24
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: Tax Paid
+Player: 2, Money:158, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -30, Reason: Rent Owned on 28
+Player: 1, Money:290, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: 0, Reason: 
+Player: 2, Money:-42, New Property: False-1, New Property Expanded: -1, New Houses Bought: 0, Changes: -200, Reason: Rent Owned on 35
+
+ID: 0 Name: GO, Owner: 0, Rent: []
+ID: 1 Name: Mediteranean Avenue, Owner: 2, Rent: [90, 10, 30, 90, 160, 250]
+ID: 2 Name: CC1, Owner: 0, Rent: []
+ID: 3 Name: Baltic Avenue, Owner: 1, Rent: [60, 20, 60, 180, 320, 450]
+ID: 4 Name: Income Tax, Owner: 0, Rent: [200]
+ID: 5 Name: Reading Railroad, Owner: 1, Rent: [50, 50, 100, 200]
+ID: 6 Name: Oriental Avenue, Owner: 1, Rent: [400, 30, 90, 270, 400, 550]
+ID: 7 Name: CH1, Owner: 0, Rent: []
+ID: 8 Name: Vermont Avenue, Owner: 0, Rent: [6, 30, 90, 270, 400, 550]
+ID: 9 Name: Connecticut Avenue, Owner: 1, Rent: [8, 40, 100, 300, 450, 600]
+ID: 10 Name: Jail, Owner: 0, Rent: []
+ID: 11 Name: St. Charles Place, Owner: 2, Rent: [10, 50, 150, 450, 625, 750]
+ID: 12 Name: Electric Company, Owner: 1, Rent: [30]
+ID: 13 Name: States Avenue, Owner: 1, Rent: [450, 50, 150, 450, 625, 750]
+ID: 14 Name: Virginia Avenue, Owner: 0, Rent: [12, 60, 180, 500, 700, 900]
+ID: 15 Name: Pennsylvania Railroad, Owner: 1, Rent: [100, 50, 100, 200]
+ID: 16 Name: St. James Place, Owner: 0, Rent: [14, 70, 200, 550, 750, 950]
+ID: 17 Name: CC2, Owner: 0, Rent: []
+ID: 18 Name: Tennessee Avenue, Owner: 1, Rent: [14, 70, 200, 550, 750, 950]
+ID: 19 Name: New York Avenue, Owner: 1, Rent: [16, 80, 220, 600, 800, 1000]
+ID: 20 Name: Free Parking, Owner: 0, Rent: []
+ID: 21 Name: Kentucky Avenue, Owner: 0, Rent: [18, 90, 250, 700, 875, 1050]
+ID: 22 Name: CH2, Owner: 0, Rent: []
+ID: 23 Name: Indiana Avenue, Owner: 1, Rent: [18, 90, 250, 700, 875, 1050]
+ID: 24 Name: Illinois Avenue, Owner: 1, Rent: [20, 100, 300, 750, 925, 1100]
+ID: 25 Name: B&O Railroad, Owner: 2, Rent: [100, 50, 100, 200]
+ID: 26 Name: Atlantic Avenue, Owner: 0, Rent: [22, 110, 330, 800, 975, 1150]
+ID: 27 Name: Ventnor Avenue, Owner: 1, Rent: [22, 110, 330, 800, 975, 1150]
+ID: 28 Name: Water Works, Owner: 1, Rent: [30]
+ID: 29 Name: Marvin Gardens, Owner: 1, Rent: [120, 120, 360, 850, 1025, 1200]
+ID: 30 Name: Go To Jail, Owner: 0, Rent: []
+ID: 31 Name: Pacific Avenue, Owner: 0, Rent: [26, 130, 390, 900, 1100, 1275]
+ID: 32 Name: North Carolina Avenue, Owner: 0, Rent: [26, 130, 390, 900, 1100, 1275]
+ID: 33 Name: CC3, Owner: 0, Rent: []
+ID: 34 Name: Pennsylvania Avenue, Owner: 0, Rent: [28, 150, 450, 1000, 1200, 1400]
+ID: 35 Name: Short Line, Owner: 1, Rent: [200, 50, 100, 200]
+ID: 36 Name: CH3, Owner: 0, Rent: []
+ID: 37 Name: Park Place, Owner: 0, Rent: [35, 175, 500, 1100, 1300, 1500]
+ID: 38 Name: Luxury Tax, Owner: 0, Rent: [100]
+ID: 39 Name: Boardwalk, Owner: 0, Rent: [50, 200, 600, 1400, 1700, 2000]
+
+----------------------------------------------------------------------------
