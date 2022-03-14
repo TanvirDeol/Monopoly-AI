@@ -14,7 +14,7 @@
 - Player Strategies implemented in Python
 
 Preview:
-![Thumbnail](thumbnail.png)
+![thumbnail](https://user-images.githubusercontent.com/55645993/158095059-ed3d3b6f-06f6-4a4c-98da-9f8617aba71f.png)
 
 ##### Files Overview:
 - **backend/simulate.py**: Implementation of AI player and randomized player that simulate X games against each other
@@ -23,3 +23,4 @@ Preview:
 - **"index.html/style.css"**: Contains base HTML/CSS code, nothing special
 - **log.txt**: Update logs of the AI player playing against a randomized player. Describes the moves each of them makes until one wins
 - **you.png/opp.png/board.png/thumbnail**: Game image files
+
